@@ -1,0 +1,21 @@
+READ n1,n2,n3
+IF(n1 < n2)
+	IF(n1 < n3)
+		IF(n2 < n3)
+			WRITE n2,n1,n3
+		ELSE 
+			WRITE n1,n2,n3
+	ELSE
+		WRITE n3,n1,n2
+ELSE 
+IF(n2 < n3)
+	IF(n1 < n3)
+		WRITE n2,n1,n2
+	ELSE
+		WRITE n2,n3,n1
+ELSE
+	WRITE n3,n2,n1
+
+		
+	
+	
