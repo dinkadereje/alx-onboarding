@@ -1,0 +1,6 @@
+READ list[]
+Sum=0
+FOR(int i=0;i<=list.legth;i++)
+	square =list[i]*list[i]
+	sum=sum+square
+WRITE "Sum is:"+sum
