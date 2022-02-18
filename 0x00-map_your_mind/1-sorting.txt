@@ -10,7 +10,7 @@ IF(n1 < n2)
 ELSE 
 IF(n2 < n3)
 	IF(n1 < n3)
-		WRITE n2,n1,n2
+		WRITE n2,n1,n3
 	ELSE
 		WRITE n2,n3,n1
 ELSE
