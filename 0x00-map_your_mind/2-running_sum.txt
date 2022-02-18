@@ -1,7 +1,7 @@
 Sum=0
 write "Please enter a number"
 READ X
-	IF(X>0)
+	IF(X>=0)
 		Sum=Sum+X
 	ELSE
 		write "Sum is:"+Sum
